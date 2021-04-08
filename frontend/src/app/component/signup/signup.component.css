@@ -1,0 +1,107 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    min-height: 100%;
+    background-image: url('../../../assets/3514.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.registerForm{
+    max-width: 330px;
+    width: 100%;
+    height: auto;
+    background: rgb(243, 239, 233);
+    padding: 30px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    border-radius: 25px;
+}
+
+.registerForm .title{
+    margin-bottom: 6px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(202, 117, 48);
+}
+
+.registerForm .formField .input-style .input{
+    max-width: 255px;
+    margin: 0px auto;
+    width: 100%;
+    height: 42px;
+    padding: 10px;
+    border: 1.5px solid rgb(192, 172, 154);
+    outline: none;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 2px rgba(27, 31, 35, .075);
+    background: rgb(245, 242, 238);
+    color: black;
+    margin-top: 20px;
+}
+
+.registerForm .formField .input-style .input:focus{
+    border-color: rgb(36, 32, 87);
+}
+
+.registerForm .formField .input-style .instruction{
+    font-size: 9px;
+    margin-top: 9px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+    color:  rgb(63, 61, 61);
+}
+
+.registerForm .formField .btn{
+    width: 100%;
+    margin: 20px auto 0;
+    background:  rgb(202, 117, 48);
+    padding: 12px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+
+.registerForm .formField .btn .btn_sign{
+    background: rgb(202, 117, 48);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    padding: 0%;
+    
+}
+
+.registerForm .formField .instru { 
+    font-size: 15px;
+    display: inline;
+    position: absolute;
+    text-align: right;
+    left: 100px;
+    color: rgb(63, 61, 61);
+}
+
+.registerForm .formField a{
+    display: inline;
+    margin-left: 7px;
+    position: absolute;
+    text-align: right;
+    left: 190px;
+    font-weight: bold;
+    color: rgb(35, 49, 175, 0.973);
+}

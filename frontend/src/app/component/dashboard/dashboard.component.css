@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');    
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family:'Comfortaa', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    min-height: 100%;
+    background-image: url('../../../assets/5474.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 650px;
+    overflow: hidden;
+}
+
+.container .btn1{
+    width: 30%;
+    margin: 20px auto 0;
+    
+    padding: 12px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 13px;
+    position: relative;
+    left: -371px;
+    top: 68px;
+}
+
+.container .btn1 .add{
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    font-size: 50px;
+    padding: 0%;
+    color: rgb(62, 10, 129);
+}
+
+.container .btn2{
+    width: 30%;
+    margin: 20px auto 0;
+    
+    padding: 12px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 13px;
+    position: relative;
+    left: -373px;
+    top: 68px;
+}
+
+.container .btn2 .track{
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    font-size: 50px;
+    padding: 0%;
+    color: rgb(62, 10, 129);
+}
+
+.bg_model{
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    background-color: rgb(107, 79, 145);
+    padding: 20px;
+    height: auto;
+    width: 435px;
+    border-radius: 50px;
+}
+
+.bg_model .frame{
+    height: 100%;
+    width: 100%;
+}
+
+.bg_model .frame .date{
+    padding: 10px;
+    margin: 10px;
+} 
+
+.bg_model .frame .date .text{
+    color: rgb(157, 142, 179);
+    font-size: 20px;
+}
+.bg_model .frame .date .day{
+    width: 55px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;  
+    text-align: center;
+}
+
+.bg_model .frame .date .day_t{
+    color: aliceblue;
+}
+
+.bg_model .frame .date .month{
+    width: 55px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;  
+    text-align: center;
+}
+
+.bg_model .frame .date .month_t{
+    color: aliceblue;
+}
+
+.bg_model .frame .date .year{
+    width: 55px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;  
+    text-align: center;
+}
+
+.bg_model .frame .date .year_t{
+    color: aliceblue;
+}
+
+.bg_model .frame .distance{
+    padding: 10px;
+    margin: 10px;
+}
+
+.bg_model .frame .distance .textd{
+    color: rgb(157, 142, 179);
+    font-size: 20px;
+}
+
+.bg_model .frame .distance .km{
+    width: 70px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;  
+    text-align: center;
+}
+
+.bg_model .frame .distance .km_t{
+    color: aliceblue;
+}
+
+.bg_model .frame .distance .meter{
+    width: 70px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;  
+    text-align: center;
+}
+
+.bg_model .frame .distance .meter_t{
+    color: aliceblue;
+}
+
+.bg_model .frame .duration{
+    padding: 10px;
+    margin: 10px;
+}
+
+.bg_model .frame .duration .textdu{
+    color: rgb(157, 142, 179);
+    font-size: 20px;
+}
+
+.bg_model .frame .duration .hr{
+    width: 55px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;  
+    text-align: center;
+}
+
+.bg_model .frame .duration .hr_t{
+    color: aliceblue;
+}
+
+.bg_model .frame .duration .min{
+    width: 55px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;  
+    text-align: center;
+}
+
+.bg_model .frame .duration .min_t{
+    color: aliceblue;
+}
+
+.bg_model .frame .duration .sec{
+    width: 55px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;  
+    text-align: center;
+}
+
+.bg_model .frame .duration .sec_t{
+    color: aliceblue;
+}
+
+.bg_model .frame .btnadd{
+    padding: 5px;
+    margin: 5px;  
+    height: 35px;
+    width: 60px;
+    background-color: rgb(62, 10, 129);
+    position: relative;
+    left: 292px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bg_model .frame .btnadd .add{
+    position: relative;
+    left: 10px;
+    top: 3px;
+   color: azure;
+   border: none;
+   background-color: rgb(62, 10, 129);
+   font-weight :700px;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+.collapse{
+    display: none;
+}
+
+
+
+
+ .collapset{
+        position: absolute;
+        right: 40px;
+        top: 85px;
+        background-color: rgb(107, 79, 145);
+        padding: 20px;
+        height: auto;
+        width: 420px;
+        border-radius: 50px;
+    }
+    .collapset .bg_track_model .frame{
+        height: 100%;
+        width: 100%;
+    }
+

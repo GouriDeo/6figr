@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+     <title>Register</title>
+     <link rel="stylesheet" href="">
+</head>
+<body>
+     <form [formGroup]="registerForm" (ngSubmit)="signup()">
+          <div class="registerForm">  
+               <div class="title">
+                    Register
+               </div>      
+               <div class="formField">
+                    <div class="input-style">
+                         <input type="text" placeholder="Username" name="name" id="userName" class="input" required formControlName="name">
+                    </div>
+                    <div class="input-style">
+                         <input type="text" placeholder="Email" name="email" id="email" class="input"required formControlName="email">
+                    </div>
+                    <div class="input-style">
+                         <input type="password" placeholder="Password" name="password" id="password" class="input" required formControlName="password">
+                    </div>
+                    <div class="input-style">
+                         <p class="instruction">Make sure it's at least 15 character OR at least 8 characters including number and a lowercase letter</p>
+                    </div>
+                    <div class="btn" >
+                         <input type="submit" value="Register" class="btn_sign">
+                    </div>                 
+                         <p class="instru">Already user?</p>
+                         <a [routerLink]= "'/login'">Sign In</a>
+               </div>
+          </div>
+     </form>    
+</body>
+</html>
+
+
+

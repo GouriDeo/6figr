@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container">
+            <form action="">
+            <div class="btn1" (click) = "toggleMenu()" >
+                <input type="submit" value="Add record" class="add">
+            </div>
+            
+            <div class="bg_model" [ngClass] = "{'collapse': showMenu}">
+                <div class="frame">
+                    <div class="date">
+                        <div class="text">
+                            Date
+                        </div>
+                        <input type="text" class="day">
+                        <span class="day_t">Day</span>
+                        <input type="text" class="month">
+                        <span class="month_t">Month</span>
+                        <input type="text" class="year">
+                        <span class="year_t">Year</span>
+                    </div>
+                    <div class="distance">
+                        <div class="textd">
+                            Distance
+                        </div>
+                        <input type="text" class="km">
+                        <span class="km_t">Km</span>
+                        <input type="text" class="meter">
+                        <span class="meter_t">Meter</span>
+                    </div>
+                    <div class="duration">
+                        <div class="textdu">
+                            Duration
+                        </div>
+                        <input type="text" class="hr">
+                        <span class="hr_t">Hours</span>
+                        <input type="text" class="min">
+                        <span class="min_t">Minutes</span>
+                        <input type="text" class="sec">
+                        <span class="sec_t">Sec</span>
+                    </div>
+                    <div class="btnadd" (click) = "toggleMenu()">
+                        <input type="submit" value="Add" class="add">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <form >
+            <div class="bg_track_model" [ngClass] = "{'collapset': showMenut}">
+                <div class="frame">
+
+                </div>
+            </div>
+            <div class="btn2" (click) = "toggleMenut()" >
+                <input type="submit" value="Track" class="track">
+            </div>
+        </form>
+        </div>
+    
+    
+
+</body>
+</html>
